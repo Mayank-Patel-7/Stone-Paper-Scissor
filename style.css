@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(29, 38, 39);
+    color: antiquewhite;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.choices {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rems;
+}
+
+.score-board {
+    align-items: center;
+    justify-content: center;
+    
+}
